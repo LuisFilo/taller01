@@ -1,7 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fcf5e5;
-    color: #333;
+    background-color: #222 !important;
+    color: #fff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #ccc; 
+    background-color: #111 !important;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -30,30 +29,36 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    max-width: 600px; 
+    max-width: 600px;
     width: 100%;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 nav li {
-    font-size: 1.2em; 
-    color: #666; 
-    transition: color 0.3s ease; 
+    background-color: #111 !important;
+    color: #ddd;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav li a {
-    color: black;
     text-decoration: none;
+    color: #ddd;
 }
 
 nav li:hover {
-    color: #007bff; 
+    background-color: #333 !important;
+    color: #66a2ff;
 }
 
 .search-box {
-    margin-left: auto; 
+    background-color: #444 !important;
+    color: #ddd;
+    margin-left: auto;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .user-buttons {
@@ -62,10 +67,16 @@ nav li:hover {
 }
 
 .user-buttons button {
+    background-color: #007bff !important;
+    color: #fff;
     margin-left: 10px;
+    padding: 8px;
+    cursor: pointer;
 }
 
 section {
+    background-color: #555 !important;
+    color: #ddd;
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
